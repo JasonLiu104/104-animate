@@ -40,6 +40,7 @@ onMounted(() => {
 
         // 如果進度條還沒達到這張圖片的開始點，或已經超過結束點，則不進行變換
         if (pinProgress < start || pinProgress > end) {
+          element.style.opacity = 0;
           return;
         }
 
