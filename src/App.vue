@@ -121,7 +121,6 @@ onMounted(() => {
 }
 
 .pin-el {
-  position: relative;
   overflow: hidden;
   min-height: 100vh;
   .img-container {
